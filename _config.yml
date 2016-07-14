@@ -1,6 +1,8 @@
 title:            gestionanddo
 description:      "Just Blogging is fun"
 logo:             logo3.png
+# Assign a default image for your site's header and footer
+default_bg:       banner.jpg
 disqus_shortname: 
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
