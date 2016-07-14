@@ -70,7 +70,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://gestionanddo.github.io/'
+  siteurl: 'http://gestionanddo.github.io'
   relativeLinks: 'http://gestionanddo.github.io/links.jsonp'
   media: 'images'
   metadata:
