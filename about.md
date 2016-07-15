@@ -1,12 +1,10 @@
 ---
 layout: page
 permalink: /about/
-title: GESTIONANDDO
+title: ACERCA DE
 tags: [gestionanddo, blog]
 categories: personal
 featured: true
-image:
-  feature: Hossain-Mohd-Faysal.jpg
 ---
 
   <img src="{{ site.url }}/images/hmfaysal-404.jpg" alt="gestionanddo">

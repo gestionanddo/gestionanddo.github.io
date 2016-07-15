@@ -20,7 +20,7 @@ url:        	  https://gestionanddo.github.io
 owner:
   name:           Your Name
   avatar:         hmfaysal.jpg
-  email:          you@email.com
+  #email:          you@email.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life, Be Creative
   # Social networking links used in footer. Update and remove as you like.
@@ -63,7 +63,7 @@ paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 #permalink:   /:categories/:title
-permalink:   /:categories/:year/:month/:title.html
+permalink:   /:year/:month/:title.html
 
 kramdown:
   auto_ids: true
