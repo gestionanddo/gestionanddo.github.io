@@ -113,9 +113,9 @@ html, body, .summer-post-container, .summer-post-header{height:100%;}
 @media only screen and (min-width:40.063em){.summer-author-info .summer-post-author{text-align:left;}
 }
 .summer-page-container{}
-.summer-page-container .summer-page-menu-header{width:100%;height:5rem;background-color:black;color:white;position:fixed;z-index:9999;}
-.summer-page-container .summer-page-menu-header .summer-blog-logo{display:inline-block;max-height:5rem;}
-.summer-page-container .summer-page-menu-header .summer-blog-logo img{max-height:5rem;}
+.summer-page-container .summer-page-menu-header{width:100%;height:3rem;background-color:black;color:white;position:fixed;top:0;left:0;z-index:9999;border-bottom:0.1875rem solid #35acf1;}
+.summer-page-container .summer-page-menu-header .summer-blog-logo{display:inline-block;max-height:3rem;}
+.summer-page-container .summer-page-menu-header .summer-blog-logo img{max-height:3rem;}
 .summer-page-container .summer-page-title{margin:0 auto;width:100%;}
 .summer-page-container .summer-page-title a{color:black;}
 .summer-page-container .summer-page-title a:hover{color:#35acf1;}
