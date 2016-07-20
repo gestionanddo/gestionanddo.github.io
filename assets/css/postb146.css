@@ -91,7 +91,7 @@ html, body, .summer-post-container, .summer-post-header{height:100%;}
 .summer-post-share .twitter-icon {background-color:#009DE2;}
 .summer-post-share .facebook-icon {background-color:#2C4388;}
 .summer-post-share .google-icon {background-color:#D0554B;}
-.summer-post-share .evernote-icon {background-image: url("../img/evernote_icon.png");background-color:#6AA340;background-repeat: no-repeat;background-attachment: fixed;background-position: center;}
+.summer-post-share .evernote-icon {background-image: url("../img/evernote_icon.png");background-color:#6AA340;background-repeat: no-repeat;background-position: center;}
 @media only screen and (min-width:40.063em){.summer-post-share{padding-top:2rem;padding-bottom:2rem;}
 }
 .summer-author-info{padding:0;padding-top:3.75rem;padding-bottom:3.75rem;background:#f2f2f2;}
