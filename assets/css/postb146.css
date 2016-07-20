@@ -88,9 +88,9 @@ html, body, .summer-post-container, .summer-post-header{height:100%;}
 .summer-post-share{background: #f0f0f0;background-color: rgb(240, 240, 240);width: 100%;height: auto;padding: 20px;padding-top: 20px;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;color: #000;text-transform: uppercase;font-weight: bold;text-align: center;margin-bottom:20px;}
 .summer-post-share p{font-size: 1em;font-weight: normal;margin: 1.3em 0; margin-top: 1.3em;margin-right: 0px;margin-bottom: 1.3em;margin-left: 0px;}
 .summer-post-share a{color: #fff;text-decoration: none;margin:0 0.9375rem;padding: 4px 14px 4px 14px;line-height: 25px;display: inline-block;border-radius: 2px;display: inline-block;}
-.summer-post-share .twitter-icon {background-color:#009DE2;}
-.summer-post-share .facebook-icon {background-color:#2C4388;}
-.summer-post-share .google-icon {background-color:#D0554B;}
+.summer-post-share .twitter-icon {background-image: url("../img/twitter_icon.png");background-color:#009DE2;background-repeat: no-repeat;background-position: center;}
+.summer-post-share .facebook-icon {background-image: url("../img/facebook_icon.png");background-color:#2C4388;background-repeat: no-repeat;background-position: center;}
+.summer-post-share .google-icon {background-image: url("../img/googleplus_icon.png");background-color:#D0554B;background-repeat: no-repeat;background-position: center;}
 .summer-post-share .evernote-icon {background-image: url("../img/evernote_icon.png");background-color:#6AA340;background-repeat: no-repeat;background-position: center;}
 @media only screen and (min-width:40.063em){.summer-post-share{padding-top:2rem;padding-bottom:2rem;}
 }
