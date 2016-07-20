@@ -3,7 +3,7 @@ layout: post
 title: "Introducing Notepad"
 description: 
 headline: 
-modified: 2014-07-19
+modified: 2016-06-30
 category: personal
 tags: []
 imagefeature: cover1.jpg
