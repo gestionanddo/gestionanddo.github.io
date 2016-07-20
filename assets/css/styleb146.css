@@ -79,7 +79,7 @@ nav.pagination .older-posts .fa{margin-left:0.625rem;}
 .summer-site-footer{background:black;}
 .summer-site-footer .social-icons,
 .summer-site-footer .copyright{width:100%;padding:0;text-align:center;}
-.summer-site-footer .copyright{font-family:Raleway, "Montserrat", sans-serif;font-weight:300;color:white;float:none;text-align:center;font-size:0.8125rem;padding-top:2.25rem;padding-bottom:1.25rem;}
+.summer-site-footer .copyright h6{font-family:Raleway, "Montserrat", sans-serif;font-weight:300;color:white;float:none;text-align:center;font-size:0.8125rem;padding-top:2.25rem;padding-bottom:1.25rem;}
 .summer-site-footer .copyright a{color:white;}
 .summer-site-footer .social-icons{text-align:center;float:none;padding-bottom:3.75rem;}
 .summer-site-footer .social-icons a{color:black;}
