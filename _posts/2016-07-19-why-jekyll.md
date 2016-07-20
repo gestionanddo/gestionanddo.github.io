@@ -8,7 +8,8 @@ category: webdevelopment
 tags: [jekyll]
 imagefeature: 
 mathjax: 
-chart: 
+chart:
+twitter-text: "Why%20Jekyll"
 comments: true
 featured: true
 excerpt_separator: <!--more-->
