@@ -56,10 +56,10 @@
         </header>
         <button class="trigger bg-check" data-info="Read more"><span>Trigger</span></button>
         {% if page.imagefeature %}<img src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-image" />{% endif %}
-        <article class="summer-post-content post">
+        <div class="summer-post-content post">
             <div>{{ content }}
             </div>
-        </article>
+        </div>
         <div class="cf"></div>
 {% if site.share %}{% include share.html %}{% endif %}
         <div class="cf"></div>
