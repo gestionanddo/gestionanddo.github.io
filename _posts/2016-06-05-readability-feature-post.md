@@ -3,7 +3,7 @@ layout: post
 title: "Post with Cover Image and Text"
 description: "Custom written post descriptions are the way to go... if you're not lazy."
 category: theme
-tags: [sample post, readability]
+tags: [sample-post, readability]
 imagefeature: cover9.jpg
 share: true
 ---
