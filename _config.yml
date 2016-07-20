@@ -48,8 +48,6 @@ links:
     url: /featured
   - title: Categories
     url: /categories
-  - title: Categorias
-    url: /categorias
   - title: About
     url: /about
 
@@ -63,7 +61,7 @@ paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 #permalink:   /:categories/:title
-permalink:   /:year/:month/:title.html
+permalink:   /:year/:month/:title
 
 kramdown:
   auto_ids: true
