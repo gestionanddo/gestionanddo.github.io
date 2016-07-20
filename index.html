@@ -29,7 +29,7 @@ tags: [jekyll, github]
                 </h3>
             </header>
             <h6 class="summer-post-excerpt">
-                <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                {{ post.content | strip_html | truncatewords:40 }}
             </h6>
             
                 <div class="summer-index-post-tags">
@@ -83,7 +83,7 @@ tags: [jekyll, github]
                 </h3>
             </header>
             <h6 class="summer-post-excerpt">
-                <p>{{ post.content | strip_html | truncatewords:100 }}</p>
+                {{ post.content | strip_html | truncatewords:100 }}
             </h6>
             
                 <div class="summer-index-post-tags">
