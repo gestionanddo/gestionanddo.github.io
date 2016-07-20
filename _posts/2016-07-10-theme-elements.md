@@ -60,10 +60,10 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
         <table>
   <thead>
     <tr>
-      <th width="200">Table Header</th>
       <th>Table Header</th>
-      <th width="150">Table Header</th>
-      <th width="150">Table Header</th>
+      <th>Table Header</th>
+      <th>Table Header</th>
+      <th>Table Header</th>
     </tr>
   </thead>
   <tbody>
