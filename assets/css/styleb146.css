@@ -107,7 +107,7 @@ nav.pagination .older-posts .fa{margin-left:0.625rem;}
     position:relative;
 }    
 .mytextwithicon:before {
-    content: "f0c9";
+    content: "\f0c9";
     font-family: FontAwesome;
     left:-5px;
     position:absolute;
