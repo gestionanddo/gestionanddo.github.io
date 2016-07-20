@@ -10,16 +10,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	{% for post in paginator.posts %}
     <article class="summer-index-post post">
         <div class="small-12 medium-6 large-4 columns">
-            <span class="summer-post-meta">
-                <time datetime="{{ post.date | date_to_xmlschema }}">
-                    <span class="day">
-                        {{ post.date | date: "%d" }}
-                    </span>
-                    <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
-                    </span>
-                </time>
-            </span>
+{{ post.date | date: "%d" }} | {{ post.date | date: "%B %Y" }}
             <header class="summer-post-header">
                 <h3 class="summer-post-title">
                     <a href="{{ site.url }}{{ post.url }}">
