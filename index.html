@@ -43,20 +43,20 @@ tags: [jekyll, github]
     <nav class="pagination" >
     {% if paginator.previous_page %}
 	    {% if paginator.previous_page == 1 %}
-	    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Newer</a>
+	    <a class="newer-posts" href="{{ site.url }}">&laquo; Newer</a>
 	    {% else %}
-	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Newer</a>
+	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}">&laquo; Newer</a>
 	    {% endif %}
 	{% else %}
-    <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span>
+    <span class="newer-posts faded">&laquo; Newer</span>
     {% endif %}
 
     
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     	{% if paginator.next_page %} 
-        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
+        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older &raquo;</a>
     	{% else %}
-    	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
+    	<span class="older-posts faded">Older &raquo;</span>
     	{% endif %}
 	</nav>
 {% else %}
