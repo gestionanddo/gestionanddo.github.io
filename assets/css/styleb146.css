@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5{font-family:"Montserrat", sans-serif;}
 .summer-blog-menu ul li a{color:black;display:inline-block;border-bottom:0.1875rem solid transparent;width:auto;height:auto;}
 .summer-blog-menu ul li a:hover{border-bottom:0.1875rem solid #35acf1;}
 }
-.summer-site-head-bg {background-image: url("../images/banner.jpg");}
+.summer-site-head-bg {background-image: url("../../images/banner.jpg");}
 .summer-site-head .summer-site-head-menu{background:white;position: fixed;width: 100%;z-index: 999999;border-bottom:0.1875rem solid #35acf1;}
 .summer-site-head .summer-site-head-menu .summer-blog-logo{display:inline-block;max-height:3rem;}
 .summer-site-head .summer-site-head-menu .summer-blog-logo img{max-height:3rem;}
