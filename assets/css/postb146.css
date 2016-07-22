@@ -172,3 +172,42 @@ iframe{border:0;}
 .tag-box.inline li{float:left;font-size:14px;line-height:2.5;}
 .tag-box a{padding:4px 6px;margin:2px;text-decoration:none;border:0.0625rem solid black;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
 .tag-box a span{font-size:10px;vertical-align:super;color:black;}
+
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+				ul.icons li .icon:before {
+					font-size: 2em;
+				}
