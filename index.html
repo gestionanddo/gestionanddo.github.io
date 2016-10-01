@@ -7,6 +7,15 @@ tags: [jekyll, github]
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text text-accent-2"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center blue-text text-accent-2">{{ post.title }}</h5>
+            <p class="light">{{ post.content | strip_html | truncatewords:40 }}</p>
+          </div>
+        </div>
+        
     <article class="summer-index-post post row">
         <div class="small-12 medium-3 large-2 columns datetime">
             <span class="summer-post-meta">
