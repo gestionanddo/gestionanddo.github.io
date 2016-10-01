@@ -11,6 +11,13 @@
       <a id="logo-container" href="#" class="brand-logo white-text text-accent-3">Logo</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Navbar Link</a></li>
+        {% for link in site.links %}
+            <li>{% if link.external %}
+            <a href="{{ link.url }}" title="{{ link.title }}" class="white-text text-accent-3">{{ link.title }}</a>
+            {% else %}
+            <a href="{{ site.url }}{{ link.url }}" title="{{ link.title }}" class="white-text text-accent-3">{{ link.title }}</a>
+            {% endif %} </li>
+        {% endfor %} 
       </ul>
 
       <ul id="nav-mobile" class="side-nav blue accent-2">
@@ -21,7 +28,7 @@
             {% else %}
             <a href="{{ site.url }}{{ link.url }}" title="{{ link.title }}" class="white-text text-accent-3">{{ link.title }}</a>
             {% endif %} </li>
-{% endfor %}    
+        {% endfor %}    
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="material-icons">menu</i></a>
     </div>
