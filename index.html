@@ -11,44 +11,20 @@ tags: [jekyll, github]
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center blue-text text-accent-2"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center blue-text text-accent-2">{{ post.title }}</h5>
+            <h5 class="center blue-text text-accent-2">
+                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+                    {{ post.title }}
+                </a>
+            </h5>
             <p class="light">{{ post.content | strip_html | truncatewords:40 }}</p>
-          </div>
-        </div>
-        
-    <article class="summer-index-post post row">
-        <div class="small-12 medium-3 large-2 columns datetime">
-            <span class="summer-post-meta">
-                <time datetime="{{ post.date | date_to_xmlschema }}">
-                    <span class="day">
-                        {{ post.date | date: "%d" }}
-                    </span>
-                    <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
-                    </span>
-                </time>
-            </span>
-        </div>
-        <div class="small-12 medium-9 large-10 columns">
-            <header class="summer-post-header">
-                <h3 class="summer-post-title">
-                    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-                        {{ post.title }}
-                    </a>
-                </h3>
-            </header>
-            <h6 class="summer-post-excerpt">
-                {{ post.content | strip_html | truncatewords:40 }}
-            </h6>
-            
-                <div class="summer-index-post-tags">
+            <div class="">
                 {% for tag in post.categories %}<a href="{{ site.url }}/categories/index#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
                     
                 </div>
-            
+          </div>
         </div>
-    </article>
 	{% endfor %}
+
     <nav class="pagination" >
     {% if paginator.previous_page %}
 	    {% if paginator.previous_page == 1 %}
