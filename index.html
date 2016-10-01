@@ -24,7 +24,7 @@ tags: [jekyll, github]
           </div>
         </div>
 	{% endfor %}
-    <nav class="pagination blue accent-2" >
+    <ul class="pagination blue accent-2" >
     {% if paginator.previous_page %}
 	    {% if paginator.previous_page == 1 %}
 	    <a class="newer-posts" href="{{ site.url }}">&laquo; Newer</a>
@@ -42,7 +42,7 @@ tags: [jekyll, github]
     	{% else %}
     	<span class="older-posts faded">Older &raquo;</span>
     	{% endif %}
-	</nav>
+	</ul>
 {% else %}
 	{% for post in site.posts %}
         <div class="col s12 m4">
