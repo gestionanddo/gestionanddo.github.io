@@ -24,25 +24,6 @@ tags: [jekyll, github]
           </div>
         </div>
 	{% endfor %}
-    <ul class="pagination blue accent-2" >
-    {% if paginator.previous_page %}
-	    {% if paginator.previous_page == 1 %}
-	    <a class="newer-posts" href="{{ site.url }}">&laquo; Newer</a>
-	    {% else %}
-	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}">&laquo; Newer</a>
-	    {% endif %}
-	{% else %}
-    <span class="newer-posts faded">&laquo; Newer</span>
-    {% endif %}
-
-    
-    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    	{% if paginator.next_page %} 
-        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older &raquo;</a>
-    	{% else %}
-    	<span class="older-posts faded">Older &raquo;</span>
-    	{% endif %}
-	</ul>
 {% else %}
 	{% for post in site.posts %}
         <div class="col s12 m4">
@@ -62,3 +43,22 @@ tags: [jekyll, github]
         </div>
 	{% endfor %}  
 {% endif %}
+    <ul class="pagination blue accent-2" >
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a class="newer-posts" href="{{ site.url }}">&laquo; Newer</a>
+        {% else %}
+        <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}">&laquo; Newer</a>
+        {% endif %}
+    {% else %}
+    <span class="newer-posts faded">&laquo; Newer</span>
+    {% endif %}
+
+    
+    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %} 
+        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older &raquo;</a>
+        {% else %}
+        <span class="older-posts faded">Older &raquo;</span>
+        {% endif %}
+    </ul>
