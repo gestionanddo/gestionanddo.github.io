@@ -20,7 +20,7 @@ tags: [jekyll, github]
             <div class="">
                 {% for tag in post.categories %}<a href="{{ site.url }}/categories/index#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
                     
-                </div>
+            </div>
           </div>
         </div>
 	{% endfor %}
