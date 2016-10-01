@@ -38,7 +38,7 @@
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
+        <br><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /><br>
         <h1 class="header center white-text text-accent-3">{{ site.title }}</h1>
         <div class="row center">
           <h5 class="header col s12 light">{{ site.description }}</h5>
@@ -68,49 +68,6 @@
     </div>
 </div>
 
-
-<header class="summer-site-head">
-    <div class="summer-site-head-menu">
-        <a class="summer-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
-
-        <div class="summer-blog-menu">      
-    <div class="summer-mobile-menu show-for-small">
-        <a href="#" title="Menu"><i class="fa fa-bars"></i></a>
-    </div>
-    <ul class="summer-menu">
-        <li class="summer-mobile-close-btn show-for-small text-right">
-            <a href="#" title="Menu"><i class="fa fa-times"></i></a>
-        </li>
-{% for link in site.links %}
-            <li>{% if link.external %}
-            <a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
-            {% else %}
-            <a href="{{ site.url }}{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
-            {% endif %} </li>
-{% endfor %}            
-           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed">Feed</a></li>
-    </ul>
-</div>
-        <div class="clearfix"></div>
-    </div>
-    <div class="summer-site-head-content" >
-        <div class="summer-site-head-bg">
-            
-        </div>
-        <h1 class="summer-blog-title">
-            <span class="summer-site-head-title-bg">
-                {{ site.title }}
-            </span>
-        </h1>
-        <h2 class="summer-blog-description">{{ site.description }}</h2>
-    </div>
-</header>
-
-
-<main class="summer-content" >
-
-            {{ content }}
-</main>
     {% include footer.html %}
 
 {% include scripts.html %}  
