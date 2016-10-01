@@ -3,7 +3,23 @@
 <head>
 {% include head.html %}
 </head>
-<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+<body>
+
+<div class="navbar-fixed">
+  <nav class="grey darken-3" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo white-text text-accent-3">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav blue accent-2">
+        <li><a href="#" class="white-text text-accent-3">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
 <header class="summer-site-head">
     <div class="summer-site-head-menu">
         <a class="summer-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
